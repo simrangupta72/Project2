@@ -55,3 +55,93 @@ p#t3{
 table{
   border-collapse: collapse;
 }
+#footer{
+     width: 100%;
+     background-color: DarkCyan;
+     color: white;
+     text-align: center;
+     height: 150px;
+     font-size: 17px;
+     font-family: "Ebrima";
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-github{
+  background: white;
+  color: black;
+
+}
+
+.fa-linkedin {
+  background: black;
+  color: white;
+}
+.button {
+  border-radius: 4px;
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    width: 240px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+a#linking:link {
+color: white;
+background-color: transparent;
+text-decoration: none;
+}
+a#linking:visited {
+color: white;
+background-color: transparent;
+text-decoration: none;
+}
+a#linking:hover {
+color: white;
+background-color: transparent;
+text-decoration: underline;
+}
+a#linking:active {
+color: white;
+background-color: transparent;
+text-decoration: underline;
+}
